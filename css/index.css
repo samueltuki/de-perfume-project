@@ -1,4 +1,87 @@
-<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+
+
+body {background-color: bisque;}
+
+
+    
+
+/*  card style */
+
+
+.card{
+    margin: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+ .card #mobile{
+    border-radius: 8px;
+    width: 500px;
+    margin-right: 300px;
+ }
+
+ .content{
+    display: grid;
+    border-radius: 8px;
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    width: 350px;
+    margin-left: -200px;
+ }
+    h2 { width: 0px;
+        height: 0px;
+        padding-left:60px;
+        margin-top: 50px;
+        letter-spacing: 6px;
+    }
+
+    h1 {
+        padding-left: 60px;
+        margin-top: 20px;
+        word-wrap: break-word;
+        display: block;
+        font-size:2.4em;
+       
+    }
+
+    p {
+        width: 180px;
+        padding-left: 60px;
+        word-wrap: break-word;
+        margin-top: 2px;
+        display: block;
+        font-size:1.1em;
+    }
+    
+    
+    .price{
+        padding-left:60px;
+        color: aqua;
+        display: inline;
+    }
+
+    #button{
+        color: rgb(255, 255, 255);
+        margin: 50px;
+        margin-top: 3%;
+        background-color: aqua;
+        border: none; 
+
+    }
+    
+    
+   .new-price{
+        font-size: 2rem;
+
+   }
+    
+   
+   .old-price{
+    text-decoration-line: line-through;
+   }
 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
