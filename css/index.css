@@ -63,13 +63,18 @@ body {background-color: bisque;}
         display: inline;
     }
 
-    #button{
+    button{
         color: rgb(255, 255, 255);
         margin: 50px;
         margin-top: 3%;
         background-color: aqua;
         border: none; 
+        transition: 0.3sec
 
+    }
+
+    button:hover{
+        background-color: rgb(38, 178, 175);
     }
     
     
